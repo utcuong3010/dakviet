@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v1.1.1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -53,7 +53,7 @@ h6 {
   background-color: #eeeeee;
 }
 .bg-darkest-gray {
-  background-color: #222222;
+  background-color: #1d1d1d;
 }
 .btn-primary {
   color: white;
@@ -147,7 +147,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: #1d1d1d;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -200,7 +200,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
-    padding: 25px 0;
+    padding: 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -218,8 +218,8 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
-    padding: 10px 0;
+    background-color: #1d1d1d;
+    padding: 0;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
@@ -551,7 +551,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
+  background-color: #1d1d1d;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -627,7 +627,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: #1d1d1d;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -701,7 +701,7 @@ ul.social-buttons li a:active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #222222;
+  background-color: #1d1d1d;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -712,7 +712,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #222222;
+  background-color: #1d1d1d;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -895,4 +895,33 @@ form .row:first-child .floating-label-form-group {
 }
 .fontSmall {
   font-size: 1em;
+}
+
+#contactHeader {
+  height: 100px;
+  background-color: #ffffff;
+}
+
+#contactHeader img {
+  height: 100px;
+  opacity: 1;
+}
+#contactHeader .company {
+  color: #e74c3c;
+  align-content: center;
+}
+
+#contactHeader .location {
+  margin-top: 20px;
+}
+
+#contactHeader .location .icon {
+  padding: 0px;
+  margin: 0px;
+}
+
+#contactHeader .location .address {
+  padding-top: 5px;
+  margin-top: 5px;
+  font: 15px arial, sans-serif;
 }
