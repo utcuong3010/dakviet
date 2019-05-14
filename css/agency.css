@@ -924,6 +924,7 @@ form .row:first-child .floating-label-form-group {
   padding-top: 5px;
   margin-top: 5px;
   font: 15px arial, sans-serif;
+  color: darkred;
 }
 
 .clients img {
