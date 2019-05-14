@@ -925,3 +925,10 @@ form .row:first-child .floating-label-form-group {
   margin-top: 5px;
   font: 15px arial, sans-serif;
 }
+
+.clients img {
+
+  height: 150px;
+  width: 150px;
+
+}
