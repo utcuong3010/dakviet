@@ -123,6 +123,15 @@
             vertical-align: middle;
             padding: 10px;
         }
+
+        .service {
+            text-align: center;
+        }
+
+        .service img {
+            width: 100px;
+            margin: 0 auto;
+        }
     </style>
 
 
@@ -132,7 +141,7 @@
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div id="contactHeader">
+        <div id="contactHeader" class="bg-light-gray">
             <div class="container hidden-xs">
                 <div class="row">
                     <div class="col-sm-3 col-md-3">
@@ -233,11 +242,16 @@
                 </div>
             </div>
             <div class="row text-center">
-                <img src="img/product/product_dk1.png" style="height: 550px;" />
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 offset-sm-2">
+                    <img src="img/product/product.png" class="img-responsive" />
+                </div>
+                <div class="col-sm-2"></div>
+
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 10px;">
                 <h5>Nguyên lý hoạt động</h5>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <ul class="fa-ul">
                         <li>
                             <span class="fa-stack">
@@ -295,8 +309,14 @@
 
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <img src="img/product/nguyen-li-hoat-dong-mtm.gif" style="width: 400px;" />
+                <div class="col-md-5" style="margin: -40px 0;">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <img src="img/product/nguyen-li-hoat-dong-mtm.gif" class="img-responsive" />
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
 
@@ -304,32 +324,34 @@
     </section>
 
     <!-- Services -->
-    <section class="page-section" id="services" style="background-color: #f3b1b1;">
+    <section class="page-section" id="services" style="background-color: #cec9c9; margin-top: 5px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3 class="section-heading text-uppercase">Dịch vụ</h3>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-md-4">
-                    <img src="img/services/support.png" class="circle-icon" />
-                    <h4 class="service-heading">Dịch vụ 24/7</h4>
-                    <!-- <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p> -->
-                </div>
-
-                <div class="col-md-4">
-                    <img src="img/services/engeneering.png" class="circle-icon" />
-                    <h4 class="service-heading">Thiết kế theo từng Khách Hàng riêng biệt</h4>
-                    <!-- <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p> -->
+                    <div class="service">
+                            <img src="img/services/support.png" class="img-responsive" />
+                            <h4 class="service-heading">Dịch vụ 24/7</h4>
+                    </div>
+                    
                 </div>
                 <div class="col-md-4">
-                    <img src="img/services/maintenance.png" class="circle-icon" />
-                    <h4 class="service-heading">Bảo trì trọn đời</h4>
-                    <!-- <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-                        architecto quo inventore harum ex magni, dicta impedit.</p> -->
+                    <div class="service">
+                            <img src="img/services/cust1.png" class="img-responsive" />
+                            <h4 class="service-heading">Thiết kế theo từng Khách Hàng riêng biệt</h4>
+                    </div>
+                   
+                </div>
+                <div class="col-md-4">
+                    <div class="service">
+                            <img src="img/services/warranty.png" class="img-responsive" />
+                            <h4 class="service-heading">Bảo trì trọn đời</h4>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -340,7 +362,7 @@
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-md-12 text-center">
                     <h3 class="section-heading">Co-Founders</h3>
                 </div>
             </div>
@@ -352,7 +374,6 @@
                         <p class="text-muted">
                             Chairman
                         </p>
-
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -366,7 +387,6 @@
                 </div>
             </div>
             <div class="row">
-
                 <div class="col-sm-6">
                     <div class="team-member">
                         <img src="img/team/thangvo.jpg" class="img-responsive img-circle" alt="">
@@ -475,12 +495,6 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> -->
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
